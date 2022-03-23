@@ -1,38 +1,17 @@
+body {
+  /* color: #232423; */
+  /* font-family: "Lora", serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif; */
+  letter-spacing: -1px;
+  margin: 0 30px;
+  padding: 0;
+  scroll-behavior: smooth;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  display: grid;
+  grid-template-rows: 5.3rem 60vh minmax(6rem, min-content);
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  row-gap: 3rem;
 }
